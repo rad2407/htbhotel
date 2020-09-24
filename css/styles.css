@@ -1,0 +1,223 @@
+/* Reset */
+/* ...............START NAV BAR............... */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+/* Utility Classes */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary{
+    color: crimson;
+}
+
+.lead{
+    font-size: 24px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    background: crimson;
+    padding: 13px 20px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-light{
+    background: #333;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+
+/* to clear float from the footer element, to align vertical center */
+.clear{
+    clear: both;
+}
+/* Main Styling (Global) */
+
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+
+}
+
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+/* Navbar */
+
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+    border-bottom: crimson 3px solid;
+}
+
+#navbar a{
+    color: #fff;
+
+}
+
+#navbar h1{
+    float: left;
+    padding: 20px;
+}
+
+/* this syntax moves the menu to the right */
+#navbar ul{
+    float: right;
+    list-style: none;
+    
+}
+
+/* this moves the individual links to align horizontally */
+#navbar li{
+    float: left;
+   
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.active {
+    color: crimson;    
+    border-bottom: 2px solid #fff;
+}
+#navbar ul li a:active{
+    color: crimson;
+}
+/* ...................END NAV BAR................ */
+
+/* ....................START OF SHOWCASE............ */
+
+#showcase{
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.8em;
+}
+
+
+/* ....................END OF SHOWCASE............ */
+
+
+
+/* ....................START HOME INFO............. */
+
+.home-info{
+    height: 350px;
+}
+
+.home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url(../img/photo-1.jpg) no-repeat;
+    min-height: 100%;
+}
+.home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 50px;
+    overflow: auto;
+    
+}
+
+.home-info .info-content p{
+    padding-bottom: 30px;
+}
+
+/* ....................END HOME INFO............. */
+
+/* .................... START OF FEATURES ........... */
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 30px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border-bottom: crimson 2px solid;
+}
+
+.box i{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* ..................... START FOOTER .....................*/
+#main-footer{
+    background: #444;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    
+    
+}
+
+#main-footer p{
+    font-size: 20px;
+}
+
+
+
+
+/* ..................... END FOOTER .....................*/
+
+
+
+
+
+
+/* .................... END START OF FEATURES ............ */
