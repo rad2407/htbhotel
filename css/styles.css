@@ -50,6 +50,21 @@
     color: #fff;
 }
 
+
+
+.padding-py1{ padding: 20px 0;}
+.padding-py2{ padding: 30px 0;}
+.padding-py3{ padding: 40px 0;}
+.padding-py4{ padding: 50px 0;}
+
+.l-heading{
+    font-size: 40px;
+}
+
+#testimonial .bg-crimson{
+    background: crimson;
+}
+
 /* to clear float from the footer element, to align vertical center */
 .clear{
     clear: both;
@@ -78,10 +93,16 @@ p{
 /* Navbar */
 
 #navbar{
+    overflow: hidden;
     background: #333;
     color: #fff;
     overflow: auto;
     border-bottom: crimson 3px solid;
+    box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.5);
+   
+    
+    
+    
 }
 
 #navbar a{
@@ -189,6 +210,7 @@ p{
     background-color: #333;
     color: #fff;
     border-bottom: crimson 2px solid;
+    border-left: .5px solid #eee;
 }
 
 .box i{
@@ -196,12 +218,138 @@ p{
     text-align: center;
 }
 
+.box:hover{
+    background: crimson;
+ 
+}
+
+/* .................... END OF FEATURES ............ */
+
+
+
+
+
+
+/* .................... START OF ABOUT PAGE ............ */
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img{
+    width: 70%;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+#testimonial{
+    height: 600px;
+    background: url(../img/test-bg.jpg) no-repeat center center/cover;
+    padding: 40px;
+}
+
+.bg-crimson{
+    background: crimson;
+    opacity: 0.7;
+    color: #fff;
+}
+
+#testimonial .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+#testimonial h2{
+    text-align: center;
+    color: #fff;
+    padding-top: 60px;
+}
+
+#testimonial .testimonial{
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#testimonial .testimonial:hover{
+    background: #333;
+    color: #fff;
+    opacity: 1;
+}
+
+
+/* .................... END OF ABOUT PAGE ............ */
+
+
+/* CONTACT FORM */
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+
+}
+
+/* allows the fields to be pushed to the next line */
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+    margin: auto;
+}
+
+#contact-form textarea{
+    height: 200px;
+}
+
+#contact-form input, #contact-form textarea:focus{
+    outline: none;
+    border-color: #ddd;
+}
+
+/* END CONTACT FORM */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ..................... START FOOTER .....................*/
 #main-footer{
     background: #444;
     padding: 20px;
     color: #fff;
     text-align: center;
+   
+   
+    
     
     
 }
@@ -220,4 +368,3 @@ p{
 
 
 
-/* .................... END START OF FEATURES ............ */
